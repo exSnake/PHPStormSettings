@@ -1,10 +1,7 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="579d5de9-0e39-43cc-a0f7-e0c7ed83d293" name="gaming" url="http://localhost/gaming">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-      <webServer id="a826922a-86f8-4c5e-be5c-f6bd124addc8" name="gaming" url="http://localhost">
+      <webServer id="e63830fe-de37-4598-8eeb-365e8877f8f4" name="gaming" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
