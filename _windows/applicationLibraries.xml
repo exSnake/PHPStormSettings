@@ -15,6 +15,17 @@
       </DOCUMENTATION>
       <SOURCES />
     </library>
+    <library name="jquery.tablesorter" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_christianbach_tablesorter_blob_master_jquery.tablesorter.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_christianbach_tablesorter_blob_master_jquery.tablesorter.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="select2" type="javaScript">
       <properties>
         <sourceFilesUrls>
