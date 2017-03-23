@@ -1,7 +1,7 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e63830fe-de37-4598-8eeb-365e8877f8f4" name="gaming" url="http://localhost">
+      <webServer id="67f67f44-9b03-425b-9b24-c74f6a547e48" name="gaming" url="http://awp.exsnake.com">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
