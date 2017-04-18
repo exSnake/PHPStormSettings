@@ -4,7 +4,10 @@
       <webServer id="67f67f44-9b03-425b-9b24-c74f6a547e48" name="gaming" url="http://awp.exsnake.com">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="77f5a744-2669-4e1b-9f85-003a8f5b3224" name="gaming" url="http://gaming.exsnake.com">
+      <webServer id="77f5a744-2669-4e1b-9f85-003a8f5b3224" name="gaming (1)" url="http://gaming.exsnake.com">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="6875970a-a3ee-43aa-8bd2-1757bd7a581a" name="beco" url="http://beco.exsnake.com">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
