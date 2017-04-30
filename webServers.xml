@@ -10,6 +10,9 @@
       <webServer id="6875970a-a3ee-43aa-8bd2-1757bd7a581a" name="beco" url="http://beco.exsnake.com">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="3da7bb0c-ccc6-410c-a820-31f28d968642" name="slot" url="http://slot.exsnake.com">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
