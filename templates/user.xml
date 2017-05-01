@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="testHome" value="@extends('layouts.app')&#10;&#10;@section('content')&#10;&#10;    &lt;form class=&quot;fa-wpforms&quot;&gt;&#10;        &#10;    &lt;/form&gt;&#10;&#10;@endsection" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
