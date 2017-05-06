@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="fori" value="for ($I$=0; $I$ &lt; $VALUE$; $I$++)&#10;{&#10;&#10;}" description="for($i=0 {...}" toReformat="false" toShortenFQNames="true">
+    <variable name="I" expression="phpSuggestVariableName()" defaultValue="&quot;$i&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="camelCase(String)" defaultValue="&quot;5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
