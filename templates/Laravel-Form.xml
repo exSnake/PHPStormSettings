@@ -102,8 +102,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="Form::input" value="{!! Form::file('$NAME$'$OPTION$) !!}$END$" description="Generate a File Input element (name, attributes)" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="&quot;filename&quot;" alwaysStopAt="true" />
+  <template name="Form::input" value="{!! Form::input('$TYPE$','$NAME$',$VALUE$, $OPTION$) !!}$END$" description="Generate a File Input element (name, attributes)" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="&quot;typename&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;labelName&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;null&quot;" alwaysStopAt="true" />
     <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control']&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
