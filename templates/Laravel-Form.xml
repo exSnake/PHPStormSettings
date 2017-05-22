@@ -156,4 +156,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="Form::date" value="{!! Form::text('$NAME$',$VALUE$$OPTION$) !!}$END$" description="(Generate a Textarea Date Type (name, default, attributes)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;date&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;\\Carbon\\Carbon::now()&quot;" alwaysStopAt="true" />
+    <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
