@@ -144,7 +144,7 @@
   </template>
   <template name="Form::submit" value="{!! Form::submit('$NAME$'$OPTION$) !!}$END$" description="Generate a Submit button (value, attributes)" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;Submit&quot;" alwaysStopAt="true" />
-    <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control']&quot;" alwaysStopAt="true" />
+    <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control btn-info']&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
@@ -156,10 +156,27 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="Form::date" value="{!! Form::text('$NAME$',$VALUE$$OPTION$) !!}$END$" description="(Generate a Textarea Date Type (name, default, attributes)" toReformat="false" toShortenFQNames="true">
+  <template name="Form::date" value="{!! Form::date('$NAME$',$VALUE$$OPTION$) !!}$END$" description="(Generate a Textarea Date Type (name, default, attributes)" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;date&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;\\Carbon\\Carbon::now()&quot;" alwaysStopAt="true" />
     <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Form::number" value="{!! Form::number('$NAME$', $DEFAULT$ $OPTION$) !!}$END$" description="Generate a Textarea Number Type (name,value,attributes)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="value" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Form::reset" value="{!! Form::reset('$NAME$'$OPTION$) !!}$END$" description="Generate a Reset button (value, attributes)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control btn-danger']&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
