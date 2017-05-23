@@ -182,4 +182,15 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="Form::labtext" value="{!! Form::label('$NAME$', '$DEFAULT$'$OPTIONLAB$) !!}$END$&#10;{!! Form::text('$NAME$', '$DEFAULTTEXT$'$OPTION$) !!}$END$" description="Generate a Label element and a Text input element (name, default, attributes)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;email&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="OPTIONLAB" expression="" defaultValue="&quot;, ['class' =&gt; 'control-label']&quot;" alwaysStopAt="true" />
+    <variable name="DEFAULTTEXT" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="OPTION" expression="" defaultValue="&quot;, ['class' =&gt; 'form-control']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
