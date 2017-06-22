@@ -1,5 +1,16 @@
 <application>
   <component name="libraryTable">
+    <library name="a86f31ecaf0c6e0a7d65" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_gist.github.com_roNn23_a86f31ecaf0c6e0a7d65.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_gist.github.com_roNn23_a86f31ecaf0c6e0a7d65.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="bootstrap" type="javaScript">
       <properties>
         <sourceFilesUrls>
