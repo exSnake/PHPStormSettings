@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="create_role" type="JavaScript" />
       <mapping pattern="SlotFactory.php" type="PHP" />
     </extensionMap>
   </component>
