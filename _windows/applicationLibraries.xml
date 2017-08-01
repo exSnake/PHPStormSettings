@@ -89,6 +89,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="markermanager" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_raw.githubusercontent.com_googlemaps_v3-utility-library_master_markermanager_src_markermanager.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_raw.githubusercontent.com_googlemaps_v3-utility-library_master_markermanager_src_markermanager.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="morris" type="javaScript">
       <properties>
         <sourceFilesUrls>
