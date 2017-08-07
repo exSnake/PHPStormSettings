@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="create_role" type="JavaScript" />
+      <mapping pattern="index" type="PHP" />
       <mapping pattern="SlotFactory.php" type="PHP" />
     </extensionMap>
   </component>
