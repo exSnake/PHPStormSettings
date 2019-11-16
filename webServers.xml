@@ -14,7 +14,7 @@
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="4999630f-f47c-46e6-9b9c-fed195d7e935" name="Pro" url="http://pro.exsnake.com">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer port="0" mountedRoot="N:\www\pro.exsnake.com" accessType="MOUNT" />
       </webServer>
     </option>
   </component>
