@@ -13,6 +13,9 @@
       <webServer id="3da7bb0c-ccc6-410c-a820-31f28d968642" name="slot" url="http://slot.exsnake.com">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="4999630f-f47c-46e6-9b9c-fed195d7e935" name="Pro" url="http://pro.exsnake.com">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
