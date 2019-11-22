@@ -114,7 +114,7 @@
       <option name="JSP" value="false" />
     </context>
   </template>
-  <template name="@forelse" value="@foreach ($USERS$ as $USER$)&#10;    $END$&#10;@forelse&#10;&#10;@endforelse" description="Blade @forelse" toReformat="false" toShortenFQNames="true">
+  <template name="@forelse" value="@forelse ($USERS$ as $USER$)&#10;    $END$&#10;@empty&#10;&#10;@endforelse" description="Blade @forelse" toReformat="false" toShortenFQNames="true">
     <variable name="USERS" expression="" defaultValue="&quot;$users&quot;" alwaysStopAt="true" />
     <variable name="USER" expression="" defaultValue="&quot;$user&quot;" alwaysStopAt="true" />
     <context>
