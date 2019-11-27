@@ -4,10 +4,10 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="create_role" type="JavaScript" />
-      <mapping pattern="SlotFactory.php" type="PHP" />
       <mapping pattern="index" type="PHP" />
       <mapping pattern="1" type="PLAIN_TEXT" />
-      <mapping pattern="SlotTestFactory.php" type="PLAIN_TEXT" />
+      <removed_mapping pattern="SlotFactory.php" approved="true" type="PHP" />
+      <removed_mapping pattern="SlotTestFactory.php" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
